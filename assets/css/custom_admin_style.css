@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+
+body {
+    font-family: 'Droid Serif', serif;
+}
+
+.page_title {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: #281554;
+    background: #f2f2f2;
+}
+
+.has-error, .error {
+    color: #fb5f5c;
+    font-size: 11px;
+    font-family: verdana;
+}
+
+thead, tfoot {
+    background: #f5f4ff;
+    color: #555;
+}
+
+.tooltip {
+    position: fixed;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+}
+
+.jumbotron {
+    background: #358CCE;
+    color: #FFF;
+    border-radius: 0px;
+}
+
+.jumbotron-sm {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.jumbotron small {
+    color: #FFF;
+}
+
+.btn-info{
+    background-color: #03aeef;
+}
+.panel-heading.active a.accordion-toggle i {
+    background: #00aeef;
+    color: #fff;
+}
+.h1 small {
+    font-size: 20px;
+    float: right;
+}
+
+.select2 {
+    line-height: 35pt;
+    padding-right: 20pt;
+    text-indent: 4pt;
+    text-align: left;
+    vertical-align: middle;
+    box-shadow: inset 0 0 3px #606060;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /*IMPORTANT*/
+    cursor: pointer;
+    outline: none;
+}
+
+.select2-dropdown {
+    background-color: #fffcf1;
+    border: 0px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: 1051;
+    padding: 1px;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #1daee2;
+    color: white;
+}
+
+.select2-container--default {
+    color: #1daee2;
+}
+
+ .select2-selection--single {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    min-height: 35px;
+}
+.hilight {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+    opacity: 0.90;
+    font-family: Verdana, Geneva, sans-serif;
+    bottom: 0px;
+    z-index: 1;
+    margin-top:-50px;
+    padding: 20px;
+}
+
+.lead img {
+    width: 250px;
+    height: 80px;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.modal-header {
+    background-color: #281554;
+    color: #e4e4e4;
+    font-weight: bold;
+}
+
+.modal-body {
+    background-color: #f6f6f6;
+}
+
+.modal-footer {
+    background-color: #efefef;
+}
+
+.modal {
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    vertical-align: middle !important;
+    min-height: 1px !important;
+}
+
+.ui.pagination.menu {
+    margin-top: 10px;
+    float: right;
+}
+
+.footer_area {
+    bottom: 0;
+}
+
+label {
+    font-family: 'Roboto Medium';
+    color: rgb(104, 104, 104);
+}
+
+.ui-datepicker {
+    width: 17em;
+    padding: .2em .2em 0;
+    display: none;
+    background: #846733;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center;
+    color: #FFFFFF;
+    background: #846733;
+}
+
+.ui-datepicker table {
+    width: 100%;
+    font-size: .7em;
+    border-collapse: collapse;
+    font-family: verdana;
+    margin: 0 0 .4em;
+    color: #000000;
+    background: #FDF8E4;
+}
+
+.ui-datepicker td {
+
+    border: 0;
+    padding: 1px;
+
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+    display: block;
+    padding: .8em;
+    text-align: right;
+    text-decoration: none;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+    .tool_inf {
+        margin-top: 15px;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+    .tool_inf {
+        margin-top: 15px;
+    }
+
+    #loginForm {
+        margin-top: 160px;
+        margin-left: 150px;
+    }
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+    #loginForm {
+        margin-top: 160px;
+        width: 50%;
+        margin-left: 160px;
+    }
+    .select2 {
+        max-width: 350px;
+    }
+    .hilight{
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .slide-margin{
+        margin-left: 100px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+    .select2 {
+        max-width: 350px;
+    }
+    .hilight{
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .slide-margin{
+        margin-left: 100px;
+    }
+
+    #loginForm {
+        margin-top: 200px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+    .select2 {
+        max-width: 250px;
+    }
+    .hilight{
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .slide-margin{
+        margin-left: 20px;
+    }
+    .tool_inf {
+        margin-top: -5px;
+    }
+
+    #loginForml {
+        margin-top: 200px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+    .tool_inf {
+        margin-top: -5px;
+    }
+
+    #loginForm {
+        margin-top: 200px;
+        width: 100%;
+    }
+
+    .select2 {
+        max-width: 200px;
+    }
+    .hilight{
+        padding: 5px;
+        margin-top: 10px;
+    }
+}
+
+#main-slider .carousel .item {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0 !important;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block !important;
+    height: 530px;
+    -webkit-transition: opacity ease-in-out 500ms;
+    -moz-transition: opacity ease-in-out 500ms;
+    -o-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+}
+
+#main-slider .carousel .carousel-content {
+    margin-top: 10px;
+}
